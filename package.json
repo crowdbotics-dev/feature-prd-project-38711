@@ -27,6 +27,7 @@
     "@screens/event-details": "file:./screens/event-details/",
     "@screens/events-advanced": "file:./screens/events-advanced/",
     "@screens/invite-friends": "file:./screens/invite-friends/",
+    "@screens/support-faq": "file:./screens/support-faq/",
     "@screens/support-send-feedback": "file:./screens/support-send-feedback/",
     "axios": "^0.21.1",
     "prop-types": "15.8.1",
