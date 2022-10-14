@@ -66,6 +66,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [screen-create-post-2](screens/create-post-1)
 - [django-push-notifications](backend/modules)
 - [react-native-push-notifications](modules/push-notifications)
+- [screen-invite-friends](screens/invite-friends)
 
 # Getting started: Frontend
 

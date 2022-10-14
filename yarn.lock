@@ -1083,7 +1083,7 @@
 "@modules/navigation-tabs@file:./modules/navigation-tabs":
   version "1.0.0"
 
-"@modules/push-notifications@file:./modules/push-notifications/":
+"@modules/push-notifications@file:./modules/push-notifications":
   version "1.0.0"
 
 "@react-native-community/cli-debugger-ui@^5.0.1":
@@ -1342,6 +1342,9 @@
   version "1.0.0"
 
 "@screens/events-advanced@file:./screens/events-advanced":
+  version "1.0.0"
+
+"@screens/invite-friends@file:./screens/invite-friends/":
   version "1.0.0"
 
 "@sideway/address@^4.1.3":

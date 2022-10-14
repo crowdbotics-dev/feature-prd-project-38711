@@ -26,6 +26,7 @@
     "@screens/create-post-1": "file:./screens/create-post-1/",
     "@screens/event-details": "file:./screens/event-details/",
     "@screens/events-advanced": "file:./screens/events-advanced/",
+    "@screens/invite-friends": "file:./screens/invite-friends/",
     "axios": "^0.21.1",
     "prop-types": "15.8.1",
     "react": "17.0.1",
