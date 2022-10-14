@@ -2,7 +2,14 @@ import React, { useEffect } from "react";
 import { View, StyleSheet, Image } from "react-native";
 import PropTypes from "prop-types";
 
-const Splash = ({ url, duration, mainContainerStyle = {}, imageResizeMode, imageStyle = {}, onDurationEnd }) => {
+const Splash = ({
+  url,
+  duration,
+  mainContainerStyle = {},
+  imageResizeMode,
+  imageStyle = {},
+  onDurationEnd
+}) => {
   useEffect(() => {
     if (duration) {
       setTimeout(() => {
@@ -10,16 +17,11 @@ const Splash = ({ url, duration, mainContainerStyle = {}, imageResizeMode, image
       }, duration);
     }
   }, []);
-
-  return (
-    <View style={[styles.container, mainContainerStyle]}>
-      <Image
-        resizeMode={imageResizeMode || "cover" }
-        style={[styles.image, imageStyle]}
-        source={{ uri: url }}
-      />
-    </View>
-  );
+  return <View style={[styles.container, mainContainerStyle]}>
+      <Image resizeMode={imageResizeMode || "cover"} style={[styles.image, imageStyle]} source={{
+      uri: url
+    }} />
+    </View>;
 };
 
 const styles = StyleSheet.create({
@@ -27,9 +29,11 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#FFF"
   },
-  image: { width: "100%", height: "100%" }
+  image: {
+    width: "100%",
+    height: "100%"
+  }
 });
-
 Splash.propTypes = {
   url: PropTypes.string,
   duration: PropTypes.number,
@@ -38,7 +42,6 @@ Splash.propTypes = {
   imageStyle: PropTypes.object,
   onDurationEnd: PropTypes.func
 };
-
 export default {
   title: "Splash",
   navigator: Splash
