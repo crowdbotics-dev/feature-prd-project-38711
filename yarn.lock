@@ -1091,7 +1091,7 @@
 "@modules/push-notifications@file:./modules/push-notifications":
   version "1.0.0"
 
-"@modules/user-profile@file:./modules/user-profile/":
+"@modules/user-profile@file:./modules/user-profile":
   version "1.0.0"
   dependencies:
     "@react-navigation/native" "^5.9.2"
@@ -1350,6 +1350,9 @@
   version "1.0.0"
 
 "@screens/event-details@file:./screens/event-details":
+  version "1.0.0"
+
+"@screens/event-home@file:./screens/event-home/":
   version "1.0.0"
 
 "@screens/events-advanced@file:./screens/events-advanced":
