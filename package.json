@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@modules/camera": "file:./modules/camera",
+    "@modules/chat": "file:./modules/chat/",
     "@modules/google-analytics": "file:./modules/google-analytics/",
     "@modules/navigation-tabs": "file:./modules/navigation-tabs/",
     "@modules/push-notifications": "file:./modules/push-notifications/",
