@@ -62,6 +62,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [react-native-navigation-tabs](modules/navigation-tabs)
 - [screen-about-the-app](screens/about-the-app)
 - [screen-events-advanced](screens/events-advanced)
+- [screen-event-details](screens/event-details)
 
 # Getting started: Frontend
 

@@ -22,6 +22,7 @@
     "@react-navigation/stack": "^5.14.3",
     "@reduxjs/toolkit": "^1.5.0",
     "@screens/about-the-app-screen": "file:./screens/about-the-app/",
+    "@screens/event-details": "file:./screens/event-details/",
     "@screens/events-advanced": "file:./screens/events-advanced/",
     "axios": "^0.21.1",
     "prop-types": "15.8.1",
