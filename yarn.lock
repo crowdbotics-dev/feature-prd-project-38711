@@ -1352,10 +1352,13 @@
 "@screens/event-details@file:./screens/event-details":
   version "1.0.0"
 
-"@screens/event-home@file:./screens/event-home/":
+"@screens/event-home@file:./screens/event-home":
   version "1.0.0"
 
 "@screens/events-advanced@file:./screens/events-advanced":
+  version "1.0.0"
+
+"@screens/google-calendar@file:./screens/google-calendar/":
   version "1.0.0"
 
 "@screens/invite-friends@file:./screens/invite-friends":

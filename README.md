@@ -73,6 +73,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [camera]()
 - [react-native-user-profile](modules/user-profile)
 - [screen-event-home](screens/event-home)
+- [screen-google-calendar](screens/google-calendar)
 
 # Getting started: Frontend
 

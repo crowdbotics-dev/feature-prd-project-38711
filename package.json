@@ -29,6 +29,7 @@
     "@screens/event-details": "file:./screens/event-details/",
     "@screens/event-home": "file:./screens/event-home/",
     "@screens/events-advanced": "file:./screens/events-advanced/",
+    "@screens/google-calendar": "file:./screens/google-calendar/",
     "@screens/invite-friends": "file:./screens/invite-friends/",
     "@screens/settings": "file:./screens/settings/",
     "@screens/support-faq": "file:./screens/support-faq/",
