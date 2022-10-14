@@ -64,6 +64,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [screen-events-advanced](screens/events-advanced)
 - [screen-event-details](screens/event-details)
 - [screen-create-post-2](screens/create-post-1)
+- [django-push-notifications](backend/modules)
 
 # Getting started: Frontend
 
