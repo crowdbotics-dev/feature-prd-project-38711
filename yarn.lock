@@ -1344,7 +1344,10 @@
 "@screens/events-advanced@file:./screens/events-advanced":
   version "1.0.0"
 
-"@screens/invite-friends@file:./screens/invite-friends/":
+"@screens/invite-friends@file:./screens/invite-friends":
+  version "1.0.0"
+
+"@screens/support-send-feedback@file:./screens/support-send-feedback/":
   version "1.0.0"
 
 "@sideway/address@^4.1.3":
